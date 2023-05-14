@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./Images/netflix image.jpg"
+      type="image/x-icon"
+    />
+
+    <title>Netflix India watch movie shows</title>
+<style type="text/css">      
+
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-y: hidden; 
+
+   background-repeat : no-repeat;
+}
+.root {
+  background-size: cover;
+    background-image:  radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),url("netflix.img/background.png");
+  background-position: center;
+  background-repeat : no-repeat;
+}
+
+.navbar {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2vw;
+  padding-top: 1%;
+  padding-right: 4vw;
+  flex-direction: row;
+}
+.img-logo {
+  width: 100px;
+  color: #e50914;
+}
+.btn-sign-in {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #e50914e1;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  display: inline-blocks;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+.btn-sign-in:hover{
+ background-color: red;
+}
+
+.main-container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-titles-container {
+  color: white;
+  width: 50% ;
+  text-align :center;
+}
+.main-title {
+  font-size: 3.2em;
+  margin-bottom: 14px;
+  line-height: 1.1;
+}
+.main-subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+.main-call-to-action {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+.main-email-container {
+  width: 55%;
+  height: fit-content;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-email-container-input {
+  outline: none;
+  border: none;
+  padding: 20px 10px;
+  font-size: 1em;
+}
+.btn-get-started {
+  cursor: pointer;
+  padding: 18px 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: fit-content;
+  background-color: #e50914;
+  color: white;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn-get-started:hover {
+  background-color: #ff0b18;
+} 
+.footer{
+  
+  color: white;
+
+}
+
+
+</style>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="root">
+      <nav class="navbar">
+        <img class="img-logo" src="./images/netflix1 image.png" />
+
+        <div class="btn-sign-in">sign in</div>
+      </nav>
+      <div class="main-container">
+        <div class="main-titles-container">
+          <h1 class="main-title">Unlimited Movies , TV Shows and more</h1>
+          <h2 class="sub-title">Watch anywhere , Cancel anytime.</h2>
+          <p class="main-call-to-action">
+            Ready to watch , Enter your Email to create or restart your membership.
+          </p>
+        </div>
+        <div class="main-email-container-input">
+          <input type="text" placeholder="Email address" />
+          <div class="btn-get-started">Started</div>
+        </div>
+      </div>
+    </div>   
+    <footer> 
+      <div class="footer"></div>
+      <p> Kapil Bankey</p>
+      <a> href="https://www.linkedin.com/in/kapil-gurjar-a73358236/"</a> 
+    </footer>
+  </body>
+</html>
